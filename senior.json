@@ -1,10 +1,22 @@
 {
     "projects": [
         {
-            "projectName": "Name",
-            "link": "#",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "collaborators": ["Name", "Name", "Name"]
+            "projectName": "College Recruitment Website",
+            "link": "https://proutum-ann.github.io/collegeRecruitment/",
+            "description": "Our first senior project of 2026 was to create a college recruitment website for our college of choice. This website needed to include important information about the school, campus, programs, and other additional amenities if applicable.",
+            "collaborators": []
+        },
+        {
+            "projectName": "Functions Refresher",
+            "link": "https://proutum-ann.github.io/1.01-Functions-Refresher-Lesson-Code/",
+            "description": "Refresher lesson site, this site was meant to refresh us on how to implement functions using JavaScript. These include new functions that were not covered the previous year, such as utilizing dates.",
+            "collaborators": []
+        },
+        {
+            "projectName": "Array Refresher",
+            "link": "https://proutum-ann.github.io/arrayRefresher/",
+            "description": "Refresher lesson site, this site was meant to refresh us on how to implement arrays from JavaScript, and using functions to visually change the display of the array without the direct use of HTML in the index file.",
+            "collaborators": []
         }
     ]
 }
