@@ -17,6 +17,24 @@
             "link": "https://proutum-ann.github.io/arrayRefresher/",
             "description": "Refresher lesson site, this site was meant to refresh us on how to implement arrays from JavaScript, and using functions to visually change the display of the array without the direct use of HTML in the index file.",
             "collaborators": []
+        },
+        {
+            "projectName": "Event Listeners Refresher",
+            "link": "https://proutum-ann.github.io/1.03-Event-Listeners-Refresher-LESSON-code/",
+            "description": "Refresher lesson site, this site was meant to refresh us on how to implement event listeners from JavaScript, allowing us to connect certain site functions to actions done via the keyboard or mouse.",
+            "collaborators": []
+        },
+        {
+            "projectName": "Class Schedule Project",
+            "link": "https://proutum-ann.github.io/classSchedule/",
+            "description": "For this site, we were tasked with creating a class schedule site using the new JSON, ASYNC, and AWAIT functions we learned. This site was meant to show our understanding of how to use these functions to create a more dynamic and responsive site.",
+            "collaborators": []
+        },
+        {
+            "projectName": "NJIT Slideshow App",
+            "link": "https://proutum-ann.github.io/Liang-PhotoApp/",
+            "description": "For this site, we were tasked with creating a slideshow application with our learned JQuery functions as well as further our application of JSON and Vue. We were told that we could choose whatever theme we wanted, so I chose to have it be a slideshow showcasing the description, stats, and abilities of various characters from a game that I enjoy.",
+            "collaborators": []
         }
     ]
 }
