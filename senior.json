@@ -33,8 +33,26 @@
         {
             "projectName": "NJIT Slideshow App",
             "link": "https://proutum-ann.github.io/Liang-PhotoApp/",
-            "description": "For this site, we were tasked with creating a slideshow application with our learned JQuery functions as well as further our application of JSON and Vue. We were told that we could choose whatever theme we wanted, so I chose to have it be a slideshow showcasing the description, stats, and abilities of various characters from a game that I enjoy.",
+            "description": "For this site, we were tasked with creating a slideshow application with our learned JQuery functions as well as further our application of JSON and Vue using a given template. We were told that we could choose whatever theme we wanted, so I chose to have it be a slideshow showcasing the description, stats, and abilities of various characters from a game that I enjoy.",
             "collaborators": []
+        },
+        {
+            "projectName": "NJIT Movie Posters",
+            "link": "https://proutum-ann.github.io/NJIT-2_moviePosters/",
+            "description": "For this site, we were told to use a movie poster site template and generate entries and slideshows for those entries using JSON and Vue in JavaScript. We were told to customize the site as much as we'd like, including using different movie posters.",
+            "collaborators": []
+        },
+        {
+            "projectName": "Lion Dance",
+            "link": "https://proutum-ann.github.io/newYearsDragonDance/",
+            "description": "In the month of December, we were told to create a website that showcased a winter holiday/tradition that we celebrated. Normally we would've worked with a partner, but Mr. Kilgore allowed us to work alone. I initially wanted to make a rhythm game based on the New Years Lion Dance, however that proved to be a bit too difficult, and CoPilot loved to argue with me. I just ended up making a little site where you can control the lion instead and make him do little dances.",
+            "collaborators": []
+        },
+        {
+            "projectName": "Volunteer Search Site",
+            "link": "https://rainbowcats999.github.io/MHS-collaborative-website/",
+            "description": ".",
+            "collaborators": ["Elizabeth Rizov"]
         }
     ]
 }
