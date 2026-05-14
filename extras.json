@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "name": "Senior Year",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "destination": "seniorfolder"
+        },
+        {
+            "name": "Junior Year",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "destination": "juniorfolder"
+        },
+        {
+            "name": "Sophomore Year",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "destination": "sophomorefolder"
+        }
+    ]
+}
