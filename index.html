@@ -22,12 +22,21 @@
     <body>
         <main>
 
-            <div class="row col-md-2 px-4 bg-info h-100">
-                <div class="col-6 col-md-5 m-2 bg-warning">1</div>
-                <div class="col-6 col-md-5 m-2 bg-warning">2</div>
-                <!-- App/Program Icon -->
-                <!-- <div v-for=""></div> -->
+            <div id="vue_app">
+                <div class="row col-md-2 px-4 bg-info h-100">
+                    <!-- App/Program Icon -->
+                    <div class="col-6" v-for="(apps, index) in extras" :key="index">
+                        <a data-bs-toggle="modal" :data-bs-target="'#' + apps.destination" class="text-decoration-none text-dark">
+                            <div class="card h-100">
+                                <img :src="apps.icon" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ apps.name }}</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
+                </div>
             </div>
         </main>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> </footer>

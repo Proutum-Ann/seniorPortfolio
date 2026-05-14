@@ -5,19 +5,22 @@ const vue_app = Vue.createApp({
             fetch('sophomore.json').then(response => response.json()).then(json => {
                   this.soph = json
             })
-
             fetch('junior.json').then(response => response.json()).then(json => {
                   this.junior = json
             })
             fetch('senior.json').then(response => response.json()).then(json => {
                   this.senior = json
             })
+            fetch('extras.json').then(response => response.json()).then(json => {
+                  this.extras = json.projects || []
+            })
       },
       data() {
         return {
             soph: [],
             junior: [],
-            senior: []
+            senior: [],
+            extras: []
         }
     },
     methods: {
