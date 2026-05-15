@@ -8,6 +8,9 @@
 @media screen and (max-width: 600px) {
     .sophomorefolder {
         margin-top: 0px;
+    }
+
+    .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         width: 100%
     }
 }
@@ -16,7 +19,10 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .sophomorefolder {
         margin-top: 100px;
-        margin-left: 50px;
+        margin-left: 50px
+    }
+
+    .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         width: 500px
     }
 }
@@ -25,7 +31,10 @@
 @media screen and (min-width: 1025px) {
     .sophomorefolder {
         margin-top: 200px;
-        margin-left: 200px;
+        margin-left: 200px
+    }
+
+    .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         width: 650px
     }
 }
@@ -34,6 +43,10 @@
 @media screen and (orientation: portrait) {
     .sophomorefolder {
         margin-top: 0px;
+        width: 100%
+    }
+
+    .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         width: 100%
     }
 }
