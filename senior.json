@@ -4,53 +4,62 @@
             "projectName": "College Recruitment Website",
             "link": "https://proutum-ann.github.io/collegeRecruitment/",
             "description": "Our first senior project of 2026 was to create a college recruitment website for our college of choice. This website needed to include important information about the school, campus, programs, and other additional amenities if applicable.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "Functions Refresher",
             "link": "https://proutum-ann.github.io/1.01-Functions-Refresher-Lesson-Code/",
             "description": "Refresher lesson site, this site was meant to refresh us on how to implement functions using JavaScript. These include new functions that were not covered the previous year, such as utilizing dates.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "Array Refresher",
             "link": "https://proutum-ann.github.io/arrayRefresher/",
             "description": "Refresher lesson site, this site was meant to refresh us on how to implement arrays from JavaScript, and using functions to visually change the display of the array without the direct use of HTML in the index file.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "Event Listeners Refresher",
             "link": "https://proutum-ann.github.io/1.03-Event-Listeners-Refresher-LESSON-code/",
             "description": "Refresher lesson site, this site was meant to refresh us on how to implement event listeners from JavaScript, allowing us to connect certain site functions to actions done via the keyboard or mouse.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "Class Schedule Project",
             "link": "https://proutum-ann.github.io/classSchedule/",
             "description": "For this site, we were tasked with creating a class schedule site using the new JSON, ASYNC, and AWAIT functions we learned. This site was meant to show our understanding of how to use these functions to create a more dynamic and responsive site.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "NJIT Slideshow App",
             "link": "https://proutum-ann.github.io/Liang-PhotoApp/",
             "description": "For this site, we were tasked with creating a slideshow application with our learned JQuery functions as well as further our application of JSON and Vue using a given template. We were told that we could choose whatever theme we wanted, so I chose to have it be a slideshow showcasing the description, stats, and abilities of various characters from a game that I enjoy.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "NJIT Movie Posters",
             "link": "https://proutum-ann.github.io/NJIT-2_moviePosters/",
             "description": "For this site, we were told to use a movie poster site template and generate entries and slideshows for those entries using JSON and Vue in JavaScript. We were told to customize the site as much as we'd like, including using different movie posters.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "Lion Dance",
             "link": "https://proutum-ann.github.io/newYearsDragonDance/",
             "description": "In the month of December, we were told to create a website that showcased a winter holiday/tradition that we celebrated. Normally we would've worked with a partner, but Mr. Kilgore allowed us to work alone. I initially wanted to make a rhythm game based on the New Years Lion Dance, however that proved to be a bit too difficult, and CoPilot loved to argue with me. I just ended up making a little site where you can control the lion instead and make him do little dances.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         },
         {
             "projectName": "Volunteer Search Site",
             "link": "https://rainbowcats999.github.io/MHS-collaborative-website/",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "description": ".",
             "collaborators": ["Elizabeth Rizov"]
         },
@@ -58,6 +67,7 @@
             "projectName": "Unrivaled Fate Portfolio Site",
             "link": "https://proutum-ann.github.io/unrivaledFatePortfolio/?authuser=0",
             "description": ".",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "collaborators": []
         }
     ]

@@ -23,14 +23,14 @@
         <main>
 
             <div id="vue_app">
-                <div class="row col-md-4 col-xl-2 px-4 bg-info h-100">
+                <div class="row col-md-4 col-xl-3 px-5 bg-info h-100">
                     <!-- App/Program Icon -->
-                    <div class="col-6" v-for="(apps, index) in extras" :key="index">
+                    <div class="col-5 my-3" v-for="(apps, index) in extras" :key="index">
                         <a data-bs-toggle="modal" :data-bs-target="'#' + apps.destination" class="text-decoration-none text-dark">
                             <div class="card h-100" style="cursor: pointer;">
                                 <img :src="apps.icon" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{ apps.name }}</h5>
+                                    <p class="card-title">{{ apps.name }}</p>
                                 </div>
                             </div>
                         </a>
