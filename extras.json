@@ -14,6 +14,16 @@
             "name": "Sophomore Year",
             "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
             "destination": "sophomorefolder"
+        },
+        {
+            "name": "About",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "destination": "aboutme"
+        },
+        {
+            "name": "Other Works",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "destination": "others"
         }
     ]
 }
