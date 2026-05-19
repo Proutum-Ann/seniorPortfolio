@@ -42,13 +42,10 @@
                     <button type="button" class="btn-close" @click="closeMainModal"></button>
 
                     <div v-if="activeModal.type === 'year'">
-                        <div
-                        v-for="(project, index) in activeProjects"
-                        :key="index"
-                        @click="openProject(project)"
-                        >
-                        <h3>{{ project.projectName }}</h3>
-                        <p>{{ project.description }}</p>
+                        <div class="row">
+                            <div class="col-6 col-md-3" v-for="(project, index) in activeProjects" :key="index" @click="openProject(project)">
+                            <p>{{ project.projectName }}</p>
+                            </div>
                         </div>
                     </div>
 
@@ -65,7 +62,7 @@
                     </div>
 
                     <div class="side-modal" v-if="activeProject">
-                        <button @click="closeProjectModal">X</button>
+                        <button type="button" class="btn-close" @click="closeMainModal"></button>
                         <h3>{{ activeProject.projectName }}</h3>
                         <p>{{ activeProject.description }}</p>
                     </div>
