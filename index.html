@@ -37,7 +37,7 @@
                     </div>
                 </div>
 
-                <div class="modal-box" :class="" v-if="activeModal">
+                <div class="modal-box" :class="activeModal.classname" v-if="activeModal">
                     <h2>{{ activeModal.name }}</h2>
                     <button type="button" class="btn-close" @click="closeMainModal"></button>
 
