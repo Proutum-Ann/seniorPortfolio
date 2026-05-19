@@ -26,7 +26,7 @@
                 <div class="row col-md-4 col-xl-3 px-5 bg-info h-100">
                     <!-- App/Program Icon -->
                     <div class="col-5 my-3" v-for="(apps, index) in extras" :key="index">
-                        <a data-bs-toggle="modal" :data-bs-target="'#' + apps.destination" class="text-decoration-none text-dark">
+                        <a @click="openMainModal(apps)">
                             <div class="card h-100" style="cursor: pointer;">
                                 <img :src="apps.icon" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -35,20 +35,39 @@
                             </div>
                         </a>
                     </div>
-
                 </div>
 
-                <div class="modal fade" :id="apps.destination" tabindex="-1" v-for="(apps, index) in extras" :key="index + '-modal'" data-bs-backdrop="false">
-                    <div class="modal-dialog">
-                        <div :class="apps.destination" class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">{{ apps.name }}</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Modal body text goes here.</p>
-                            </div>
+                <div class="modal-box" :class="" v-if="activeModal">
+                    <h2>{{ activeModal.name }}</h2>
+                    <button type="button" class="btn-close" @click="closeMainModal"></button>
+
+                    <div v-if="activeModal.type === 'year'">
+                        <div
+                        v-for="(project, index) in activeProjects"
+                        :key="index"
+                        @click="openProject(project)"
+                        >
+                        <h3>{{ project.projectName }}</h3>
+                        <p>{{ project.description }}</p>
                         </div>
+                    </div>
+
+                    <div v-if="activeModal.type === 'about'">
+                        <h3>{{ activeAbout.title }}</h3>
+                        <p>{{ activeAbout.bio }}</p>
+                    </div>
+
+                    <div v-if="activeModal.type === 'works'">
+                        <div v-for="(work, index) in activeWorks" :key="index">
+                        <h3>{{ work.name }}</h3>
+                        <p>{{ work.description }}</p>
+                        </div>
+                    </div>
+
+                    <div class="side-modal" v-if="activeProject">
+                        <button @click="closeProjectModal">X</button>
+                        <h3>{{ activeProject.projectName }}</h3>
+                        <p>{{ activeProject.description }}</p>
                     </div>
                 </div>
 
