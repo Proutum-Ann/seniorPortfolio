@@ -45,8 +45,6 @@ const vue_app = Vue.createApp({
             }
 
             if (apps.type === "about") {
-                  // some about.json files wrap the content in an "info" array
-                  // prefer the first entry so the template can read `section` and `information`
                   this.activeAbout = data.info ? (Array.isArray(data.info) ? data.info[0] : data.info) : data;
             }
 
