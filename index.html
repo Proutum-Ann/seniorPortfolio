@@ -50,9 +50,11 @@
                     </div>
 
                     <div v-if="activeModal.type === 'about'">
-                        <img :src="activeAbout.icon">
-                        <h3>{{ activeAbout.section }}</h3>
-                        <p>{{ activeAbout.information }}</p>
+                        <div v-for="(info, index) in activeAbout" :key="index">
+                            <img :src="info.icon" style="height: 100px">
+                            <h3>{{ info.section }}</h3>
+                            <p>{{ info.information }}</p>
+                        </div>
                     </div>
 
                     <div v-if="activeModal.type === 'works'">
@@ -64,7 +66,7 @@
 
                     <div class="side-modal" v-if="activeProject">
                         <button type="button" class="btn-close" @click="closeProjectModal"></button>
-                        <h3>{{ activeProject.projectName }}</h3>
+                        <h3><a :href="activeProject.link">{{ activeProject.projectName }}</a></h3>
                         <p>{{ activeProject.description }}</p>
                     </div>
                 </div>

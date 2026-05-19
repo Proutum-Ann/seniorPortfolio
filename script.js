@@ -44,9 +44,15 @@ const vue_app = Vue.createApp({
                   this.activeProjects = data.projects || [];
             }
 
-            if (apps.type === "about") {
-                  this.activeAbout = data.info ? (Array.isArray(data.info) ? data.info[0] : data.info) : data;
-            }
+                  if (apps.type === "about") {
+                        // Normalize various about.json shapes into an array so the template
+                        // can iterate and render all sections.
+                        if (data && data.info) {
+                              this.activeAbout = Array.isArray(data.info) ? data.info : [data.info];
+                        } else {
+                              this.activeAbout = Array.isArray(data) ? data : [data];
+                        }
+                  }
 
             if (apps.type === "works") {
                   this.activeWorks = data.works || [];
