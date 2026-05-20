@@ -55,7 +55,7 @@
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        width: 100%
+        width: 600px
     }
 }
 
@@ -66,8 +66,13 @@
         left: 10px
     }
 
+    .juniorfolder {
+        top: 200px;
+        left: 100px
+    }
+
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        max-width: 200px
+        max-width: 1024px
     }
 }
 
@@ -76,6 +81,11 @@
     .sophomorefolder {
         top: 200px;
         left: 200px
+    }
+
+    .juniorfolder {
+        top: 50px;
+        left: 500px
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
