@@ -4,7 +4,6 @@
   position: fixed;
   top: 100px;
   left: 350px;
-  width: 500px;
   min-height: 300px;
   background: white;
   border: 2px solid #ccc;
@@ -18,7 +17,6 @@
   position: absolute;
   top: 20px;
   left: 530px;
-  width: 280px;
   min-height: 200px;
   background: white;
   border: 2px solid #ccc;
@@ -68,7 +66,7 @@
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        width: 500px
+        width: 200px
     }
 }
 
@@ -80,7 +78,7 @@
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        width: 650px
+        width: 1050px
     }
 }
 

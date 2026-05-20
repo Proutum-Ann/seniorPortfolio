@@ -51,9 +51,15 @@
 
                     <div v-if="activeModal.type === 'about'">
                         <div v-for="(info, index) in activeAbout" :key="index">
-                            <img :src="info.icon" style="height: 100px">
-                            <h3>{{ info.section }}</h3>
-                            <p>{{ info.information }}</p>
+                            <div class="row">
+                                <div class="col-md-6"><img :src="info.icon" style="height: 300px"></div>
+                                <div class="col-md-6">
+                                    <h3>{{ info.section }}</h3>
+                                    <p>{{ info.information }}</p>
+                                </div>
+                            </div>
+                            
+                            
                         </div>
                     </div>
 
