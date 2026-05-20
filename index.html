@@ -71,9 +71,14 @@
                     </div>
 
                     <div class="side-modal" v-if="activeProject">
-                        <button type="button" class="btn-close" @click="closeProjectModal"></button>
-                        <h3><a :href="activeProject.link">{{ activeProject.projectName }}</a></h3>
-                        <p>{{ activeProject.description }}</p>
+                        <button type="button" class="btn-close text-right" @click="closeProjectModal"></button>
+                        <center>
+                            <div>
+                                <img :src="activeProject.icon" style="height: 300px">
+                            </div>
+                            <h3><a :href="activeProject.link">{{ activeProject.projectName }}</a></h3>
+                            <p>{{ activeProject.description }}</p>
+                        </center>
                     </div>
                 </div>
 

@@ -15,9 +15,10 @@
 
 .side-modal {
   position: absolute;
-  top: 20px;
-  left: 530px;
+  top: 200px;
+  left: 1030px;
   min-height: 200px;
+  width: 500px;
   background: white;
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -61,24 +62,24 @@
 /* Medium devices (tablets, 601px to 1024px) */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .sophomorefolder {
-        margin-top: 100px;
-        margin-left: 50px
+        top: 100px;
+        left: 10px
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        width: 200px
+        max-width: 200px
     }
 }
 
 /* Large devices (desktops, more than 1024px) */
 @media screen and (min-width: 1025px) {
     .sophomorefolder {
-        margin-top: 200px;
-        margin-left: 200px
+        top: 200px;
+        left: 200px
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        width: 1050px
+        max-width: 1050px
     }
 }
 
