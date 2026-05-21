@@ -7,21 +7,14 @@
   min-height: 300px;
   background: white;
   border: 2px solid #ccc;
-  border-radius: 10px;
   padding: 20px;
   z-index: 9999;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 .side-modal {
-  position: absolute;
-  top: 200px;
-  left: 1030px;
-  min-height: 200px;
-  width: 500px;
   background: white;
   border: 2px solid #ccc;
-  border-radius: 10px;
   padding: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
@@ -51,11 +44,17 @@
 /* Small devices (phones, less than 600px) */
 @media screen and (max-width: 600px) {
     .sophomorefolder {
-        margin-top: 0px;
+        top: 0px;
+        left: 0px
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         width: 600px
+    }
+
+    .side-modal {
+        min-height: 200px;
+        width: 500px;
     }
 }
 
@@ -74,6 +73,14 @@
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         max-width: 1024px
     }
+
+    .side-modal {
+        position: absolute;
+        top: 200px;
+        left: 1030px;
+        min-height: 200px;
+        width: 500px;
+    }
 }
 
 /* Large devices (desktops, more than 1024px) */
@@ -91,6 +98,14 @@
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         max-width: 1050px
     }
+
+    .side-modal {
+        position: absolute;
+        top: 200px;
+        left: 1030px;
+        min-height: 200px;
+        width: 500px;
+    }
 }
 
 /* Example: Portrait orientation */
@@ -102,5 +117,11 @@
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         width: 100%
+    }
+
+    .side-modal {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
