@@ -1,4 +1,7 @@
 /* Overall Styling */
+body {
+    overflow-x: hidden;
+}
 
 .modal-box {
   position: fixed;
@@ -14,7 +17,6 @@
 
 .side-modal {
   background: white;
-  border: 2px solid #ccc;
   padding: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
@@ -43,18 +45,17 @@
 
 /* Small devices (phones, less than 600px) */
 @media screen and (max-width: 600px) {
-    .sophomorefolder {
-        top: 0px;
-        left: 0px
-    }
-
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        width: 600px
+        width: 600px;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
     }
 
     .side-modal {
         min-height: 200px;
-        width: 500px;
+        width: 600px;
+        height: 100vh;
     }
 }
 
