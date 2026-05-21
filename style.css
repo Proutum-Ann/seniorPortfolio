@@ -101,6 +101,11 @@ body {
         left: 300px
     }
 
+    .aboutme {
+        top: 150px;
+        left: 600px
+    }
+
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
         width: 1050px
     }
