@@ -71,7 +71,7 @@ body {
         left: 100px
     }
 
-    .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
+    .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .aboutme, .others {
         max-width: 1024px
     }
 
@@ -102,7 +102,7 @@ body {
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .others {
-        max-width: 1050px
+        width: 1050px
     }
 
     .sophomorefolder .side-modal {
