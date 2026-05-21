@@ -41,13 +41,23 @@
                     <h2>{{ activeModal.name }}</h2>
                     <button type="button" class="btn-close" @click="closeMainModal"></button>
 
+                    <!-- Projects -->
                     <div v-if="activeModal.type === 'year'">
                         <div class="row">
-                            <div class="col-6 col-md-3" v-for="(project, index) in activeProjects" :key="index" @click="openProject(project)">
-                            <p>{{ project.projectName }}</p>
+                            <div class="col-3 bg-info d-none d-md-block">
+                                hi
+                            </div>
+                            <div class="col-md-9">
+                                <div class="row">
+                                    <div class="col-6 col-md-3" v-for="(project, index) in activeProjects" :key="index" @click="openProject(project)">
+                                        <p>{{ project.projectName }}</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        
 
+                        <!-- Details -->
                         <div class="side-modal" v-if="activeProject">
                             <button type="button" class="btn-close text-right" @click="closeProjectModal"></button>
                             <center>
@@ -60,6 +70,7 @@
                         </div>
                     </div>
 
+                    <!-- About -->
                     <div v-if="activeModal.type === 'about'">
                         <div v-for="(info, index) in activeAbout" :key="index">
                             <div class="row py-1">
@@ -73,7 +84,7 @@
                             
                         </div>
                     </div>
-
+                     <!-- Other Works Directory-->
                     <div v-if="activeModal.type === 'works'">
                         <div v-for="(work, index) in activeWorks" :key="index">
                             <h3>{{ work.name }}</h3>
