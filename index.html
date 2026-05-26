@@ -23,11 +23,11 @@
         <main>
 
             <div id="vue_app" style="height: 90vh">
-                <div class="row col-md-6 col-lg-4 col-xl-3 px-5 bg-info h-100">
+                <div class="row col-md-6 col-lg-4 col-xl-3 px-5 h-100">
                     <!-- App/Program Icon -->
-                    <div class="col-5 my-3" v-for="(apps, index) in extras" :key="index">
+                    <div class="text-center col-5 my-3" v-for="(apps, index) in extras" :key="index">
                         <a @click="openMainModal(apps)">
-                            <div class="card h-100" style="cursor: pointer;">
+                            <div class="h-100" style="cursor: pointer;">
                                 <img :src="apps.icon" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-title">{{ apps.name }}</p>
@@ -42,7 +42,7 @@
                     <button type="button" class="btn-close" @click="closeMainModal"></button>
 
                     <!-- Projects -->
-                    <div v-if="activeModal.type === 'year'">
+                    <div class="projectModals" v-if="activeModal.type === 'year'">
                         <div class="row">
                             <div class="col-3 bg-info d-none d-md-block">
                                 hi
@@ -50,6 +50,7 @@
                             <div class="col-md-9">
                                 <div class="row">
                                     <div class="col-6 col-md-3" v-for="(project, index) in activeProjects" :key="index" @click="openProject(project)">
+                                        <img :src="project.icon" class="card-img-top" alt="...">
                                         <p>{{ project.projectName }}</p>
                                     </div>
                                 </div>

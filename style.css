@@ -52,6 +52,11 @@ body {
         height: 100vh;
     }
 
+    .projectModals {
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
     .side-modal {
         min-height: 200px;
         width: 600px;
@@ -73,6 +78,12 @@ body {
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .aboutme, .others {
         max-width: 1024px
+    }
+
+    .projectModals {
+        height: 50vh;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     .side-modal {
@@ -110,6 +121,12 @@ body {
         width: 1050px
     }
 
+    .projectModals {
+        height: 50vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
     .sophomorefolder .side-modal {
         position: absolute;
         top: 200px;
@@ -142,6 +159,11 @@ body {
         top: 0px;
         left: 0px;
         height: 100vh;
+    }
+
+    .projectModals {
+        max-height: 100vh;
+        overflow-y: auto;
     }
 
     .side-modal {

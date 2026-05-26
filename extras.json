@@ -2,35 +2,35 @@
     "files": [
         {
             "name": "Senior Year",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/folder.png",
             "destination": "senior.json",
             "classname": "seniorfolder",
             "type": "year"
         },
         {
             "name": "Junior Year",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/folder.png",
             "destination": "junior.json",
             "classname": "juniorfolder",
             "type": "year"
         },
         {
             "name": "Sophomore Year",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/folder.png",
             "destination": "sophomore.json",
             "classname": "sophomorefolder",
             "type": "year"
         },
         {
             "name": "About",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/folder.png",
             "destination": "about.json",
             "classname": "aboutme",
             "type": "about"
         },
         {
             "name": "Other Works",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/folder.png",
             "destination": "other.json",
             "classname": "otherworks",
             "type": "works"
