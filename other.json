@@ -1,9 +1,9 @@
 {
     "works": [
         {
-            "name": "Summertainment Site",
+            "name": "ToyHouse Dabbling",
             "link": "https://proutum-ann.github.io/Summer-tainment-Site/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+            "description": "I dabble a lot in making HTMLs for the character storage site ToyHouse! It was what got me into web design in the first place, and its frameworks are generally simple to understand.",
             "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
         }
     ]

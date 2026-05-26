@@ -38,8 +38,8 @@
                 </div>
 
                 <div class="modal-box" :class="activeModal.classname" v-if="activeModal">
-                    <h2>{{ activeModal.name }}</h2>
-                    <button type="button" class="btn-close" @click="closeMainModal"></button>
+                    <span class="h2">{{ activeModal.name }}</span>
+                    <span style="float: right"><button type="button" class="btn-close" @click="closeMainModal"></button></span>
 
                     <!-- Projects -->
                     <div class="projectModals" v-if="activeModal.type === 'year'">
@@ -48,7 +48,10 @@
                                 hi
                             </div>
                             <div class="col-md-9">
-                                <div class="row">
+                                <div class="w-100 col-12 d-none d-md-block bg-warning mb-1 p-2">Search</div>
+
+                                <!-- Project Buttons -->
+                                <div class="row text-center">
                                     <div class="col-6 col-md-3" v-for="(project, index) in activeProjects" :key="index" @click="openProject(project)">
                                         <img :src="project.icon" class="card-img-top" alt="...">
                                         <p>{{ project.projectName }}</p>
