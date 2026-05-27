@@ -11,7 +11,7 @@
             "projectName": "Our Solar System",
             "link": "https://29d5fd50-7866-4f85-a169-3011767fcc1c-00-1odnqw94uqldy.riker.replit.dev/",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/ourSolarSystem.png",
             "collaborators": []
         },
         {
@@ -25,7 +25,7 @@
             "projectName": "Chess Board",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/chessBoard.png",
             "collaborators": []
         },
         {
@@ -53,8 +53,8 @@
             "projectName": "How to...",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
-            "collaborators": []
+            "icon": "imgs/howToPumpkin.png",
+            "collaborators": ["Layla Green", "Cooper Steiner"]
         },
         {
             "projectName": "Teddy Bear",
@@ -74,7 +74,7 @@
             "projectName": "NJ Lighthouses",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/njLighthouse.png",
             "collaborators": []
         },
         {
