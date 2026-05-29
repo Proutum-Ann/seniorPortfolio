@@ -1,0 +1,24 @@
+{
+    "socials": [
+        {
+            "name": "ToyHouse",
+            "link": "https://toyhou.se/Proutum_Ann",
+            "icon": "socialIcons/toyhouse.png"
+        },
+        {
+            "name": "Roblox",
+            "link": "404.html",
+            "icon": "socialIcons/roblox.png"
+        },
+        {
+            "name": "ArtFight",
+            "link": "404.html",
+            "icon": "socialIcons/artfight.png"
+        },
+        {
+            "name": "Bluesky",
+            "link": "404.html",
+            "icon": "socialIcons/bluesky.svg"
+        }
+    ]
+}

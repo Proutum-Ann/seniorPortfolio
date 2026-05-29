@@ -14,6 +14,9 @@ const vue_app = Vue.createApp({
             fetch('extras.json').then(response => response.json()).then(json => {
                   this.extras = json.files || []
             })
+            fetch('socials.json').then(response => response.json()).then(json => {
+                  this.socials = json.socials || []
+            })
       },
       data() {
         return {
@@ -21,6 +24,7 @@ const vue_app = Vue.createApp({
             junior: [],
             senior: [],
             extras: [],
+            socials: [],
 
             activeModal: null,
             activeProject: null,

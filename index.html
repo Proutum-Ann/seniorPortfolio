@@ -19,10 +19,11 @@
         <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
     </head>
 
-    <body>
-        <main>
+    <body style="max-height: 60vh; overflow: hidden">
+        <div id="vue_app">
+            <main style="height: 88vh">
 
-            <div id="vue_app" style="height: 90vh">
+            
                 <div class="row col-md-6 col-lg-4 col-xl-3 px-5 h-100">
                     <!-- App/Program Icon -->
                     <div class="text-center col-5 my-3" v-for="(apps, index) in extras" :key="index">
@@ -98,10 +99,17 @@
 
                     
                 </div>
-
-            </div>
         </main>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> </footer>
+        <footer class="site-footer d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top" style="height: 10vh">
+            <div class="w-100 text-center">
+                <div class="socials">
+                    <a v-for="(s, i) in socials" :key="i" :href="s.link" target="_blank" rel="noopener noreferrer" :aria-label="s.name">
+                        <img :src="s.icon" :title="s.name" data-bs-toggle="tooltip" class="social-icon mx-2">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
         <!-- Bootstrap JavaScript Bundle (includes Popper) -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
