@@ -50,7 +50,7 @@ footer {
 /* Small devices (phones, less than 600px) */
 @media screen and (max-width: 600px) {
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .otherworks {
-        width: 600px;
+        max-width: 550px;
         top: 0px;
         left: 0px;
         height: 100vh;

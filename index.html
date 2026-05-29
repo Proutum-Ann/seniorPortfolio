@@ -19,14 +19,13 @@
         <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
     </head>
 
-    <body style="max-height: 60vh; overflow: hidden">
+    <body style="max-height: 60vh">
         <div id="vue_app">
-            <main style="height: 88vh">
+            <main style="height: 87.7vh">
 
-            
                 <div class="row col-md-6 col-lg-4 col-xl-3 px-5 h-100">
                     <!-- App/Program Icon -->
-                    <div class="text-center col-5 my-3" v-for="(apps, index) in extras" :key="index">
+                    <div class="text-center col-6 col-md-5 my-3" v-for="(apps, index) in extras" :key="index">
                         <a @click="openMainModal(apps)">
                             <div class="h-100" style="cursor: pointer;">
                                 <img :src="apps.icon" class="card-img-top" alt="...">
@@ -78,7 +77,7 @@
                     <!-- About -->
                     <div v-if="activeModal.type === 'about'">
                         <div v-for="(info, index) in activeAbout" :key="index">
-                            <div class="row py-1">
+                            <div class="row py-1 text-center text-md-left" style="overflow-y: auto">
                                 <div class="col-md-6 col-lg-4"><img :src="info.icon" style="height: 300px"></div>
                                 <div class="col-md-6 col-lg-8">
                                     <h3>{{ info.section }}</h3>
