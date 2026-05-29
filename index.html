@@ -91,9 +91,11 @@
                     </div>
                      <!-- Other Works Directory-->
                     <div v-if="activeModal.type === 'works'">
-                        <div v-for="(work, index) in activeWorks" :key="index">
-                            <h3>{{ work.name }}</h3>
-                            <p>{{ work.description }}</p>
+                        <div class="row">
+                            <div class="col-lg-6" v-for="(work, index) in activeWorks" :key="index">
+                                <h3>{{ work.name }}</h3>
+                                <p>{{ work.description }}</p>
+                            </div>
                         </div>
                     </div>
 

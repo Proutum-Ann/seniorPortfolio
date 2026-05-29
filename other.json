@@ -2,9 +2,11 @@
     "works": [
         {
             "name": "ToyHouse Dabbling",
-            "link": "https://proutum-ann.github.io/Summer-tainment-Site/",
-            "description": "I dabble a lot in making HTMLs for the character storage site ToyHouse! It was what got me into web design in the first place, and its frameworks are generally simple to understand.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
+            "description": "I dabble a lot in making HTMLs for the character storage site ToyHouse! It was what got me into web design in the first place, and its frameworks are generally simple to understand."
+        },
+        {
+            "name": "Digital Art",
+            "description": "I dabble a lot in making HTMLs for the character storage site ToyHouse! It was what got me into web design in the first place, and its frameworks are generally simple to understand."
         }
     ]
 }
