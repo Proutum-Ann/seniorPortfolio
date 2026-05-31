@@ -1,24 +1,61 @@
 /* Overall Styling */
 body {
     overflow-x: hidden;
+    background: url('imgs/background.png') no-repeat center center fixed;
+    border-bottom: none
 }
 
+/* Window-style Modal */
 .modal-box {
   position: fixed;
   top: 100px;
   left: 350px;
   min-height: 300px;
-  background: white;
-  border: 2px solid #ccc;
-  padding: 20px;
+  background: #fffbf0;
+  border: 2px solid #8B4513;
+  padding: 0;
   z-index: 9999;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 0px #654321, 4px 4px 0px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: #FFD700 transparent;
+}
+
+.modalHeader {
+  content: '';
+  background: linear-gradient(to right, #FFD700, #FFA500, #FF8C00);
+  height: 25px;
+  border-bottom: 2px solid #8B4513;
+  display: flex;
+  align-items: center;
+}
+
+.modal-box > * {
+  padding: 20px;
+}
+
+.modal-box > *:first-of-type {
+  padding-top: 5px;
 }
 
 .side-modal {
-  background: white;
+  background: #fffbf0;
+  padding: 0;
+  box-shadow: 2px 2px 0px #8B4513, 4px 4px 0px rgba(0,0,0,0.2);
+  border: 2px solid #8B4513;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: #FFD700 transparent;
+}
+
+.side-modal > * {
   padding: 15px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.side-modal > *:first-of-type {
+  padding-top: 5px;
 }
 
 .modal-box button {
@@ -28,22 +65,32 @@ body {
 .modal-box h2,
 .modal-box h3 {
   margin-top: 0;
+  color: #8B4513;
+  border-bottom: 2px solid #FFA500;
+  padding-bottom: 10px;
 }
 
 .modal-box .filefolders {
-  border: 1px solid #ddd;
+  border: 2px solid #FF8C00;
   padding: 10px;
   margin-bottom: 10px;
   cursor: pointer;
-  border-radius: 6px;
+  background: #fff9f0;
+  transition: 0.1s;
 }
 
 .modal-box .filefolders:hover {
-  background: #f5f5f5;
+  background: #FFE6CC;
+  border-color: #FF6347;
+}
+
+.modal-box .filefolders:active {
+  background: #FFD700;
+  border-color: #8B4513;
 }
 
 footer {
-    background: #ccc;
+    background: linear-gradient(to right, #FFD700, #FFA500);
     padding: 20px 0;
 }
 
@@ -84,8 +131,8 @@ footer {
         max-width: 1024px
     }
 
-    .projectModals {
-        height: 50vh;
+    .projectModals, .sidebar-lists {
+        max-height: 30vh;
         overflow-x: hidden;
         overflow-y: auto;
     }
@@ -102,55 +149,55 @@ footer {
 /* Large devices (desktops, more than 1024px) */
 @media screen and (min-width: 1025px) {
     .sophomorefolder {
-        top: 200px;
+        top: 100px;
         left: 200px
     }
 
     .juniorfolder {
         top: 50px;
-        left: 700px
-    }
-
-    .seniorfolder {
-        top: 300px;
         left: 300px
     }
 
+    .seniorfolder {
+        top: 100px;
+        left: 100px
+    }
+
     .aboutme {
-        top: 150px;
-        left: 600px
+        top: 10px;
+        left: 400px
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .otherworks {
         width: 1050px
     }
 
-    .projectModals {
-        height: 50vh;
+    .projectModals, .sidebar-lists {
+        max-height: 50vh;
         overflow-x: hidden;
         overflow-y: auto;
     }
 
     .sophomorefolder .side-modal {
         position: absolute;
-        top: 200px;
-        left: 1030px;
+        top: -100px;
+        left: 530px;
         min-height: 200px;
         width: 800px;
     }
 
     .juniorfolder .side-modal {
         position: absolute;
-        top: 200px;
-        left: -600px;
+        top: 100px;
+        left: -300px;
         min-height: 200px;
         width: 800px;
     }
 
     .seniorfolder .side-modal {
         position: absolute;
-        top: -200px;
-        left: 1000px;
+        top: -100px;
+        left: 400px;
         min-height: 200px;
         width: 800px;
     }
@@ -187,14 +234,60 @@ footer {
 .social-icon {
     width: 50px;
     padding: 5px;
-    transition: .5s;
-    border-color: rgba(0,0,0,0.1);
-    border-radius: 4px;
+    transition: all 0.1s ease-in-out;
+    box-sizing: border-box;
+    border-bottom: 4px solid transparent;
 }
 
 .social-icon:hover {
-    border-bottom: 4px solid rgba(0,0,0,0.3);
+    border-bottom-color: rgba(0,0,0,0.3);
     border-radius: 4px;
-    padding-bottom: 2px;
     background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+}
+
+.appIcon {
+    transition: all 0.2s ease-in-out;
+}
+
+.appIcon:hover {
+    border-radius: 4px;
+    background: rgba(255,255,255,0.5);
+}
+
+.project-sidebar {
+    padding: 20px;
+    background: #fff2cc;
+    border-right: 2px solid #8B4513;
+}
+
+.sidebar-title {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar-item {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar-child {
+    padding-left: 1rem;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.sidebar-child:hover {
+    background: rgba(255,255,255,0.7);
+}
+
+.sidebar-child.active {
+    font-weight: bold;
+    color: #8B4513;
 }

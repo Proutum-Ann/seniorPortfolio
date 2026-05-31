@@ -18,7 +18,7 @@
             "projectName": "Let's Go Camping!",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         },
         {
@@ -32,14 +32,14 @@
             "projectName": "Perfect Pumpkin Pie",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         },
         {
             "projectName": "Halloween Movie Recommendations",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         },
         {
@@ -53,7 +53,7 @@
             "projectName": "Teddy Bear",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         },
         {
@@ -67,7 +67,7 @@
             "projectName": "Falling Leaves",
             "link": "404.html",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         },
         {
@@ -109,21 +109,21 @@
             "projectName": "Favorite Album Covers",
             "link": "https://fa319727-d356-4c9e-9d50-39015dcabf0a-00-6i4kzbnh393o.janeway.repl.co/",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         },
         {
             "projectName": "Coffee Shop",
             "link": "https://05920534-c58a-491e-a4ea-f23570f291af-00-1hddy3gdscid2.kirk.replit.dev/",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         },
         {
             "projectName": "Global Cancer Disparities Initiative",
             "link": "https://09f43283-fcb3-4930-99c9-b682c132acb2-00-1ysigcmlt647d.picard.repl.co/",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+            "icon": "imgs/noimg.png",
             "collaborators": []
         }
     ]

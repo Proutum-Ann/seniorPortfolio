@@ -23,14 +23,14 @@
         },
         {
             "name": "About",
-            "icon": "imgs/folder.png",
+            "icon": "imgs/aboutIcon.png",
             "destination": "about.json",
             "classname": "aboutme",
             "type": "about"
         },
         {
             "name": "Other Works",
-            "icon": "imgs/folder.png",
+            "icon": "imgs/otherWorks.png",
             "destination": "other.json",
             "classname": "otherworks",
             "type": "works"
