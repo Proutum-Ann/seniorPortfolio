@@ -48,7 +48,7 @@
                     <!-- Projects -->
                     <div class="projectModals" v-if="activeModal.type === 'year'">
                         <div class="row">
-                            <div class="col-3 bg-info d-none d-md-block project-sidebar">
+                            <div class="col-3 d-none d-md-block project-sidebar">
                                 <ul class="sidebar-list">
                                     <li class="sidebar-item">{{ activeModal.name }}</li>
                                     <li class="sidebar-child" v-for="(project, index) in activeProjects" :key="index" @click="openProject(project)" :class="{ active: activeProject && activeProject.projectName === project.projectName }">
@@ -57,7 +57,6 @@
                                 </ul>
                             </div>
                             <div class="col-md-9">
-                                <div class="w-100 col-12 d-none d-md-block bg-warning mb-1 p-2">Search</div>
 
                                 <!-- Project Buttons -->
                                 <div class="row text-center projectRows">
@@ -87,7 +86,7 @@
                     </div>
 
                     <!-- About -->
-                    <div v-if="activeModal.type === 'about'">
+                    <div class="innerAbout" v-if="activeModal.type === 'about'">
                         <div v-for="(info, index) in activeAbout" :key="index">
                             <div class="row py-1 text-center text-md-left" style="overflow-y: auto">
                                 <div class="col-md-6 col-lg-4"><img :src="info.icon" style="height: 300px"></div>
@@ -103,7 +102,7 @@
                      <!-- Other Works Directory-->
                     <div v-if="activeModal.type === 'works'">
                         <div class="row">
-                            <div class="col-lg-6" v-for="(work, index) in activeWorks" :key="index">
+                            <div class="col-lg-6 mx-auto" v-for="(work, index) in activeWorks" :key="index">
                                 <h3>{{ work.name }}</h3>
                                 <p>{{ work.description }}</p>
                             </div>
