@@ -26,10 +26,10 @@ body {
 .modalHeader {
   content: '';
   background: linear-gradient(to right, #FFD700, #FFA500, #FF8C00);
-  height: 25px;
   border-bottom: 2px solid #8B4513;
   display: flex;
   align-items: center;
+  padding: 0
 }
 
 .modal-box > * {

@@ -41,7 +41,7 @@
                 <div class="modal-box" :class="activeModal.classname" v-if="activeModal">
                     <!-- Modal Header -->
                     <div class="modalHeader justify-content-between d-flex align-items-center p-3">
-                        <span class="h2">{{ activeModal.name }}</span>
+                        <span style="font-size: x-large"><b>{{ activeModal.name }}</b></span>
                         <span style="float: right"><button type="button" class="btn-close" @click="closeMainModal"></button></span>
                     </div>
 
@@ -71,8 +71,9 @@
 
                         <!-- Details -->
                         <div class="side-modal" v-if="activeProject">
-                            <div class="modalHeader justify-content-between d-flex align-items-center p-3">
-                                <button type="button" class="btn-close text-right" @click="closeProjectModal"></button>
+                            <div class="modalHeader p-3 justify-content-between d-flex align-items-center">
+                                <span></span>
+                                <button type="button" class="btn-close" style="float: right" @click="closeProjectModal"></button>
                             </div>
                             
                             <div class="projectInfo">
