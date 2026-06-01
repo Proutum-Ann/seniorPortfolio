@@ -75,13 +75,15 @@
                                 <button type="button" class="btn-close text-right" @click="closeProjectModal"></button>
                             </div>
                             
-                            <center>
-                                <div>
-                                    <img :src="activeProject.icon" style="height: 300px">
-                                </div>
-                                <h3><a :href="activeProject.link">{{ activeProject.projectName }}</a></h3>
-                                <p>{{ activeProject.description }}</p>
-                            </center>
+                            <div class="projectInfo">
+                                <center>
+                                    <div>
+                                        <img :src="activeProject.icon" style="height: 300px">
+                                    </div>
+                                    <h3><a :href="activeProject.link">{{ activeProject.projectName }}</a></h3>
+                                    <p>{{ activeProject.description }}</p>
+                                </center>
+                            </div>
                         </div>
                     </div>
 

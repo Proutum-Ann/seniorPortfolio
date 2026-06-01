@@ -3,49 +3,48 @@
         {
             "projectName": "Summertainment Site",
             "link": "https://proutum-ann.github.io/Summer-tainment-Site/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+            "description": "For the first project of the year, we were tasked with creating a website in relation to the book that we had read over the summer. This project was mainly done as a refresher on what we learned the previous year.",
             "icon": "imgs/summertainment.png",
             "collaborators": []
         },
         {
             "projectName": "Monthly Gallery Site",
             "link": "https://proutum-ann.github.io/MonthlyWebsiteGallery/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+            "description": "This was the second project of the year, it was meant to also serve as a portfolio site for our second year in web design. It was, once again, a refresher.",
             "icon": "imgs/monthlygallery.png",
             "collaborators": []
         },
         {
             "projectName": "Look Ma, I'm FAMOUS!",
             "link": "https://proutum-ann.github.io/LookMaImFamous/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
-            "icon": "imgs/maImFamous.png",
+            "description": "We were told to be more creative with CSS for this project, namely with colors and fonts. It's meant to be a biography site for a celebrity of our choice.",
             "collaborators": []
         },
         {
             "projectName": "Word Salad",
             "link": "https://proutum-ann.github.io/Java-Mad-Lib/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+            "description": "This was the first site where JavaScript was implimented into any of my projects. It utilizes user input to generate a mad lib story.",
             "icon": "imgs/madLib.png",
             "collaborators": []
         },
         {
             "projectName": "What's my name?",
             "link": "https://proutum-ann.github.io/NameGen/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+            "description": "This site utilizes JavaScript to generate a 'random' name using a user's input. The user is asked to input their name, and the site generates a name for them using multiple information input facets.",
             "icon": "imgs/whatsYourName.png",
             "collaborators": []
         },
         {
             "projectName": "Rock Paper Scissors",
             "link": "https://proutum-ann.github.io/rockPaperScissors/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+            "description": "This project utilized a random number generator via Javascript to generate a computer decision after a user has picked theirs. The site then uses conditionals to determine the winner of the game.",
             "icon": "imgs/rps.png",
             "collaborators": []
         },
         {
             "projectName": "Lucky Guess",
             "link": "https://proutum-ann.github.io/shamrockHangMan/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+            "description": "This project utilizes random number generators and additional JavaScript methods to create a hangman game. User input is also used to  determine the difficulty of the game as well as inputting guesses/",
             "icon": "imgs/hangMan.png",
             "collaborators": []
         },

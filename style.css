@@ -40,6 +40,11 @@ body {
   padding-top: 5px;
 }
 
+.projectInfo {
+  max-height: 70vh;
+  overflow-y: auto
+}
+
 .side-modal {
   background: #fffbf0;
   padding: 0;
