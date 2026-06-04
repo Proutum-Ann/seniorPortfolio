@@ -10,6 +10,7 @@ body {
 .modal-box,
 .side-modal {
   animation: modalPop 0.22s ease-out forwards;
+  animation-fill-mode: both;
   transform-origin: center top;
 }
 

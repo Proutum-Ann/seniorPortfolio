@@ -26,7 +26,7 @@
 
                 <div class="row col-md-6 col-lg-4 col-xl-3 px-5 h-100">
                     <!-- App/Program Icon -->
-                    <div class="text-center col-6 col-md-5 my-3" v-for="(apps, index) in extras" :key="index">
+                    <div class="text-center col-4 col-md-5 my-3" v-for="(apps, index) in extras" :key="index">
                         <a @click="openMainModal(apps)">
                             <div class="h-100 appIcon" style="cursor: pointer;">
                                 <img :src="apps.icon" class="card-img-top" alt="...">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
 
-                <div class="modal-box" :class="activeModal.classname" v-if="activeModal">
+                <div class="modal-box" :class="activeModal.classname" v-if="activeModal" :key="activeModal.name">
                     <!-- Modal Header -->
                     <div class="modalHeader justify-content-between d-flex align-items-center p-3">
                         <span style="font-size: x-large"><b>{{ activeModal.name }}</b></span>
@@ -70,7 +70,7 @@
                         
 
                         <!-- Details -->
-                        <div class="side-modal" v-if="activeProject">
+                        <div class="side-modal" v-if="activeProject" :key="activeProject.projectName">
                             <div class="modalHeader p-3 justify-content-between d-flex align-items-center">
                                 <span></span>
                                 <button type="button" class="btn-close" style="float: right" @click="closeProjectModal"></button>
