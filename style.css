@@ -7,6 +7,12 @@ body {
 }
 
 /* Window-style Modal */
+.modal-box,
+.side-modal {
+  animation: modalPop 0.22s ease-out forwards;
+  transform-origin: center top;
+}
+
 .modal-box {
   position: fixed;
   top: 100px;
@@ -21,6 +27,17 @@ body {
   flex-direction: column;
   scrollbar-width: thin;
   scrollbar-color: #FFD700 transparent;
+}
+
+@keyframes modalPop {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .modalHeader {
