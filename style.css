@@ -6,6 +6,10 @@ body {
     color: #8B4513
 }
 
+a {
+    color: #FF8C00
+}
+
 /* Window-style Modal */
 .modal-box,
 .side-modal {
