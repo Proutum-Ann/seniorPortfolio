@@ -177,18 +177,18 @@ footer {
 /* Large devices (desktops, more than 1024px) */
 @media screen and (min-width: 1025px) {
     .sophomorefolder {
-        top: 100px;
+        top: 300px;
         left: 200px
     }
 
     .juniorfolder {
-        top: 50px;
-        left: 300px
+        top: 200px;
+        left: 1000px
     }
 
     .seniorfolder {
         top: 100px;
-        left: 100px
+        left: 400px
     }
 
     .aboutme {
@@ -202,7 +202,8 @@ footer {
     }
 
     .otherworks {
-        left: 100px;
+        top: 300px;
+        left: 670px;
     }
 
     .sophomorefolder, .juniorfolder, .seniorfolder, .aboutme, .otherworks {
@@ -217,8 +218,8 @@ footer {
 
     .sophomorefolder .side-modal {
         position: absolute;
-        top: -100px;
-        left: 530px;
+        top: -200px;
+        left: 630px;
         min-height: 200px;
         width: 800px;
     }
@@ -226,14 +227,14 @@ footer {
     .juniorfolder .side-modal {
         position: absolute;
         top: 100px;
-        left: -300px;
+        left: -700px;
         min-height: 200px;
         width: 800px;
     }
 
     .seniorfolder .side-modal {
         position: absolute;
-        top: -100px;
+        top: 300px;
         left: 400px;
         min-height: 200px;
         width: 800px;

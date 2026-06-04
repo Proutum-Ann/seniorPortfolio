@@ -42,7 +42,7 @@
                     <!-- Modal Header -->
                     <div class="modalHeader justify-content-between d-flex align-items-center p-3">
                         <span style="font-size: x-large"><b>{{ activeModal.name }}</b></span>
-                        <span style="float: right"><button type="button" class="btn-close" @click="closeMainModal"></button></span>
+                        <span class="d-none d-md-block" style="float: right"><button type="button" class="btn-close" @click="closeMainModal"></button></span>
                     </div>
 
                     <!-- Projects -->
@@ -66,6 +66,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <button class="d-block d-md-none" type="button" @click="closeMainModal">Close</button>
                         </div>
                         
 
@@ -73,7 +74,7 @@
                         <div class="side-modal" v-if="activeProject" :key="activeProject.projectName">
                             <div class="modalHeader p-3 justify-content-between d-flex align-items-center">
                                 <span></span>
-                                <button type="button" class="btn-close" style="float: right" @click="closeProjectModal"></button>
+                                <span class="d-none d-md-block" style="float: right"><button type="button" class="btn-close" @click="closeMainModal"></button></span>
                             </div>
                             
                             <div class="projectInfo">
@@ -85,7 +86,9 @@
                                     <p>{{ activeProject.description }}</p>
                                 </center>
                             </div>
+
                         </div>
+                        <button class="d-block d-md-none" type="button" @click="closeMainModal">Close</button>
                     </div>
 
                     <!-- About -->
